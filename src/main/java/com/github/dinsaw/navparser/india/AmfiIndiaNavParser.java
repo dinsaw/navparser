@@ -1,7 +1,7 @@
-package com.dinsaw.navparser.india;
+package com.github.dinsaw.navparser.india;
 
-import com.dinsaw.navparser.core.TextNavParser;
-import com.dinsaw.navparser.dto.MutualFund;
+import com.github.dinsaw.navparser.core.TextNavParser;
+import com.github.dinsaw.navparser.dto.MutualFund;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

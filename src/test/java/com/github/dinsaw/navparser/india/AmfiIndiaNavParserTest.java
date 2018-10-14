@@ -1,6 +1,6 @@
-package com.dinsaw.navparser.india;
+package com.github.dinsaw.navparser.india;
 
-import com.dinsaw.navparser.dto.MutualFund;
+import com.github.dinsaw.navparser.dto.MutualFund;
 import org.junit.Test;
 
 import java.io.File;

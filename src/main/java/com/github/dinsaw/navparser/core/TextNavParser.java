@@ -1,6 +1,6 @@
-package com.dinsaw.navparser.core;
+package com.github.dinsaw.navparser.core;
 
-import com.dinsaw.navparser.dto.MutualFund;
+import com.github.dinsaw.navparser.dto.MutualFund;
 
 import java.io.*;
 import java.util.List;

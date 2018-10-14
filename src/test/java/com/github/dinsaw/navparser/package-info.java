@@ -3,4 +3,4 @@
  *
  * Created by dinsaw on 8/10/18.
  */
-package com.dinsaw.navparser;
+package com.github.dinsaw.navparser;
