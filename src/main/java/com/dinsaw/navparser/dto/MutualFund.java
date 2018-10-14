@@ -1,4 +1,4 @@
-package com.dineshsawant.navparser.dto;
+package com.dinsaw.navparser.dto;
 
 import lombok.Builder;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package com.dineshsawant.navparser.core;
+package com.dinsaw.navparser.core;
 
-import com.dineshsawant.navparser.dto.MutualFund;
+import com.dinsaw.navparser.dto.MutualFund;
 
 import java.io.File;
 import java.io.FileNotFoundException;
