@@ -1,0 +1,18 @@
+Scheme Code;ISIN Div Payout/ ISIN Growth;ISIN Div Reinvestment;Scheme Name;Net Asset Value;Date
+
+Open Ended Schemes(Debt Scheme - Banking and PSU Fund)
+
+Aditya Birla Sun Life Mutual Fund
+
+119551;INF209KA12Z1;INF209KA13Z9;Aditya Birla Sun Life Banking & PSU Debt Fund  - Direct Plan-Dividend;145.82;01-Oct-2018
+119552;INF209K01YM2;-;Aditya Birla Sun Life Banking & PSU Debt Fund - Direct Plan-Monthly Dividend;105.8044;01-Oct-2018
+119553;INF209K01YO8;-;Aditya Birla Sun Life Banking & PSU Debt Fund - Direct Plan-Quarterly Dividend;103.2717;01-Oct-2018
+108272;INF209K01LX6;INF209KA11Z3;Aditya Birla Sun Life Banking & PSU Debt Fund - Regular Plan-Dividend;153.3083;01-Oct-2018
+108273;INF209K01LV0;-;Aditya Birla Sun Life Banking & PSU Debt Fund - Regular Plan-Growth;226.3696;01-Oct-2018
+110282;INF209K01LU2;-;Aditya Birla Sun Life Banking & PSU Debt Fund - Regular Plan-Monthly Dividend;104.3578;01-Oct-2018
+108274;INF209K01LN7;-;Aditya Birla Sun Life Banking & PSU Debt Fund - Regular Plan-Quarterly Dividend;101.967;01-Oct-2018
+103176;INF209K01LT4;-;Aditya Birla Sun Life Banking & PSU Debt Fund - Retail Plan-Growth;339.8127;01-Oct-2018
+110490;INF209K01LR8;-;Aditya Birla Sun Life Banking & PSU Debt Fund - Retail Plan-Monthly Dividend;104.2224;01-Oct-2018
+106157;INF209K01LS6;-;Aditya Birla Sun Life Banking & PSU Debt Fund - Retail Plan-Quarterly Dividend;104.5611;01-Oct-2018
+119550;INF209K01YN0;-;Aditya Birla Sun Life Banking & PSU Debt Fund- Direct Plan-Growth;229.7371;01-Oct-2018
+112015;INF209K01KM1;-;Aditya Birla Sun Life Treasury Optimizer Plan - Discipline Advantage Plan - Growth;206.0699;21-Jun-2018
