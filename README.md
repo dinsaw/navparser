@@ -1,5 +1,6 @@
 # navparser 
 [![Build Status](https://travis-ci.org/dinsaw/navparser.svg?branch=master)](https://travis-ci.org/dinsaw/navparser)
+[![codecov](https://codecov.io/gh/dinsaw/navparser/branch/master/graph/badge.svg)](https://codecov.io/gh/dinsaw/navparser)
 
 Parser for mutual fund net asset values.
 
