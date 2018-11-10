@@ -3,6 +3,7 @@ package com.github.dinsaw.navparser.core;
 import com.github.dinsaw.navparser.dto.MutualFund;
 
 import java.io.*;
+import java.net.URL;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -31,17 +32,30 @@ public interface TextNavParser extends NavParser {
      */
     boolean shouldSkip(String line);
 
-    default List<MutualFund> parse(File file) throws FileNotFoundException {
+    @Override
+    default List<MutualFund> parse(File file) throws IOException {
         FileInputStream fileInputStream = new FileInputStream(file);
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(fileInputStream));
-
-        return bufferedReader.lines()
-                .filter(l -> !isHeader(l))
-                .filter(l -> !shouldSkip(l))
-                .map(l -> parseLine(l))
-                .filter(l -> l.isPresent())
-                .map(o -> o.get())
-                .collect(Collectors.toList());
+        InputStreamReader in = new InputStreamReader(fileInputStream);
+        try(BufferedReader bufferedReader = new BufferedReader(in)) {
+            return getMutualFunds(bufferedReader);
+        }
     }
 
+    default List<MutualFund> getMutualFunds(BufferedReader bufferedReader) {
+        return bufferedReader.lines()
+            .filter(l -> !isHeader(l))
+            .filter(l -> !shouldSkip(l))
+            .map(l -> parseLine(l))
+            .filter(l -> l.isPresent())
+            .map(o -> o.get())
+            .collect(Collectors.toList());
+    }
+
+    @Override
+    default List<MutualFund> parse(URL url) throws IOException {
+        InputStreamReader in = new InputStreamReader(url.openStream());
+        try(BufferedReader bufferedReader = new BufferedReader(in)) {
+            return getMutualFunds(bufferedReader);
+        }
+    }
 }
