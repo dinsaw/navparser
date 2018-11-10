@@ -8,3 +8,16 @@ Parser for mutual fund net asset values.
 |Source|Parser|
 |---|---|
 |https://www.amfiindia.com/spages/NAVAll.txt|`com.github.dinsaw.navparser.india.AmfiIndiaNavParser`
+
+## How to use?
+
+### Gradle
+``` Groovy
+repositories {
+  jcenter()
+}
+
+dependencies {
+  compile 'com.github.dinsaw:navparser:0.5'
+}
+```
