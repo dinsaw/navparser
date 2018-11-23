@@ -21,3 +21,9 @@ dependencies {
   compile 'com.github.dinsaw:navparser:0.5'
 }
 ```
+
+
+## How to publish to JCenter
+- export BINTRAY_USER=<Your Bintray user name>
+- export BINTRAY_KEY=<Your Bintray API Key>
+- gradle clean build bintrayUpload

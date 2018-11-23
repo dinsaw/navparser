@@ -12,10 +12,7 @@ plugins {
 }
 
 group 'com.github.dinsaw'
-version '0.5'
-
-println("hohoh : ${jar.archiveName}")
-
+version '0.6'
 
 sourceCompatibility = 1.8
 
