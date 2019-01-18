@@ -41,7 +41,7 @@ public class AmfiIndiaNavParser implements TextNavParser {
                 .build());
     }
 
-    private Double parseNetAssetValue(String word) {
+    protected Double parseNetAssetValue(String word) {
         try {
             return Double.valueOf(word);
         } catch (Exception e) {
