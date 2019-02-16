@@ -16,8 +16,8 @@ public class AmfiIndiaHistoricNavParser extends AmfiIndiaNavParser {
     private static final String NAV_DATE_PATTERN = "dd-MMM-yyyy";
     private static final int SCHEME_INDEX = 0;
     private static final int SCHEME_NAME_INDEX = 1;
-    private static final int NAV_INDEX = 2;
-    private static final int NAV_DATE_INDEX = 5;
+    private static final int NAV_INDEX = 4;
+    private static final int NAV_DATE_INDEX = 7;
 
     @Override
     public Optional<MutualFund> parseLine(String line) {
